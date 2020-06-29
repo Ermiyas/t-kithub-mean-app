@@ -1,7 +1,7 @@
 let express = require('express'),
     path = require('path'),
     app = express(),
-    port = process.env.PORT || 3000,
+    port = process.env.PORT || 3001,
     mongoose = require('mongoose'), //created model loading here
     cors = require('cors');
     bodyParser = require('body-parser'),
